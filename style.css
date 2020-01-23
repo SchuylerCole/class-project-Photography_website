@@ -22,13 +22,12 @@
 }
 
 html{
-	font-size: 62.5%;
-	--header1: cal(2rem + 1vw);
-	--header2: cal(3.5rem + 1vw);
-	--header3: cal(3rem + 1vw);
-	--header4: cal(2.4rem + 1vw);
-	--text: cal(1.5rem + 1vw);
-	--bigtext: cal(2.4rem + 1vw);
+	--header1: calc(2rem + 1vw);
+	--header2: calc(3.5rem + 1vw);
+	--header3: calc(3rem + 1vw);
+	--header4: calc(2.4rem + 1vw);
+	--text: calc(1.5rem + 1vw);
+	--bigtext: calc(2.4rem + 1vw);
 	--special-color: #906272;
 	--background-color: #414141;
 	--gray-text: #525252;
@@ -67,4 +66,45 @@ h2{
 
  a{
  	text-decoration: none;
+ 	color: black;
+ }
+
+
+/* non global style below kinda*/
+ body{
+ 	font-family: "Ruhl", sans-serif;
+ }
+
+h1{
+ 	font-family: "Vibes", sans-serif;
+ }
+
+
+ /*nav section*/
+
+ ul{
+ 	list-style-type: none;
+ }
+
+ .main-head{
+ 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+ }
+
+ nav{
+ 	width: 90%;
+ 	margin: auto;
+ 	display: flex;
+ 	align-items: center;
+ 	min-height: 10vh;
+ 	padding: 2rem 0rem;
+ }
+
+ #logo{
+ 	flex: 1 1 20rem;
+ }
+
+ .nav-links{
+ 	display: flex;
+ 	justify-content: space-around;
+ 	flex:1 1 20rem;
  }
