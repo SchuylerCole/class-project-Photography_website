@@ -73,6 +73,7 @@ h2{
 /* non global style below kinda*/
  body{
  	font-family: "Ruhl", sans-serif;
+ 	animation: opening 1s ease-in-out;
  }
 
 h1{
@@ -164,4 +165,15 @@ h1{
 }
 .plant2{
 	left: 30%;
+}
+
+/*animation*/
+
+@keyframes opening{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
 }
