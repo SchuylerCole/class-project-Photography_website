@@ -157,7 +157,7 @@ h1{
  }
 
 .plant{
-	height: 75%;
+	max-height: 75%;
 	position: absolute;
 	bottom: 10%;
 	left: -20%;
@@ -205,6 +205,16 @@ h1{
 
 @media screen and (max-width: 850px){
 
+	.hero{
+		width: 100%;
+	}
+
+	.hero-intro p{
+		padding: 5rem 3rem;
+	}
+
+
+	/* burger nav*/
 	.burger{
 		position: relative;
 		display: block;
