@@ -199,11 +199,15 @@ h1{
 	}
 }
 
+.burger,.menu-checked{
+	display: none;
+}
 
 @media screen and (max-width: 850px){
 
 	.burger{
 		position: relative;
+		display: block;
 	}
 	.burger span{
 		padding: 0.2rem 2rem;
@@ -232,6 +236,7 @@ h1{
 	}
 
 	.menu-check{
+		display: block;
 		position: absolute;
 		top: 5%;
 		right: 4%;
