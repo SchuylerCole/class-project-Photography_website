@@ -130,6 +130,7 @@ h1{
 
  .hero-intro p{
  	padding: 3rem 6rem;
+ 	color: var(--gray-text);
  }
 
   .hero-intro h3{
@@ -199,7 +200,58 @@ h1{
 	}
 }
 
-.burger,.menu-checked{
+
+.about{
+	min-height: 100vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.about-text{
+	position: relative;
+	flex: 2 1 40rem;
+	justify-content: space-around;
+	background: var(--background-color);
+	color: white;
+}
+
+.about-image{
+	position: relative;
+	width: 200px;
+	flex: 1 1 40rem;
+}
+
+.about-image h5{
+	position: absolute;
+	letter-spacing: 2rem;
+	top: 20%; 
+	left: 50%;
+	transform: translate(-50%, -20%);
+}
+
+.about-image img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.about-text div{
+	padding: 4rem 8rem;
+}
+
+.about-text h2{
+	position: absolute;
+	left: 35%;
+	top: .05%;
+	font-family: "fonts/GreatVibes-Regular.ttf";
+}
+
+.about-text h3{
+	padding: 2rem 0rem;
+	font-family: "fonts/FrankRuhlLibre-Medium.ttf"
+}
+
+.burger, .menu-check{
 	display: none;
 }
 
@@ -264,4 +316,10 @@ h1{
 	.menu-check:checked ~ .burger span{
 		background: white;
 	}
+
+	/*about*/
+	.about-text div{
+		padding: 3rem 3rem;
+	}
+
 }
